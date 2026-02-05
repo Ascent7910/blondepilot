@@ -54,9 +54,6 @@ See: https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-p
 3. Build your image - the files will be copied to `/etc/flatpak/preinstall.d/`
 4. After user setup completes, Flatpaks will be automatically installed
 
-**Example Files in this directory:**
-- [`default.preinstall`](default.preinstall) - Core applications from Bluefin
-
 ### Finding Flatpak IDs
 
 To find the ID of a Flatpak:

@@ -23,10 +23,6 @@ custom/ujust/
 └── custom-system.just # System configuration commands
 ```
 
-**Example Files in this directory:**
-- [`custom-apps.just`](custom-apps.just) - Application installation commands (Brewfiles, Flatpaks, JetBrains Toolbox)
-- [`custom-system.just`](custom-system.just) - System configuration commands (benchmarks, dev groups, maintenance)
-
 ## Example Commands
 
 ### Basic Command
