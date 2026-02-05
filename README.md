@@ -118,7 +118,7 @@ All changes should be made via pull requests:
 
 Switch to your image:
 ```bash
-sudo bootc switch ghcr.io/your-username/your-repo-name:stable
+sudo bootc switch ghcr.io/Ascent7910/blondepilot:stable
 sudo systemctl reboot
 ```
 
