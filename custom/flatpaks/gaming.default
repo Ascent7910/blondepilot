@@ -1,0 +1,11 @@
+[Flatpak Preinstall com.heroicgameslauncher.hgl]
+Branch=stable
+
+[Flatpak Preinstall net.davidotek.pupgui2]
+Branch=stable
+
+[Flatpak Preinstall org.DolphinEmu.dolphin-emu]
+Branch=stable
+
+[Flatpak Preinstall org.prismlauncher.PrismLauncher]
+Branch=stable
