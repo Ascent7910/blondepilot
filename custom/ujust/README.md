@@ -208,12 +208,6 @@ setup-dev:
     echo "Setting up dev environment..."
 ```
 
-## Examples from Bluefin
-
-The included files provide starting examples:
-- **[`custom-apps.just`](custom-apps.just)** - Application installation commands
-- **[`custom-system.just`](custom-system.just)** - System configuration commands
-
 These files show how to:
 - Create shortcuts to Brewfiles in [`custom/brew/`](../brew/)
 - Install Flatpaks interactively
