@@ -20,10 +20,6 @@ Brewfiles are Homebrew's way of declaring packages in a declarative format. They
 2. Add your desired packages using Brewfile syntax
 3. Build your image - the Brewfiles will be copied to `/usr/share/ublue-os/homebrew/`
 
-**Example Files in this directory:**
-- [`default.Brewfile`](default.Brewfile) - Essential command-line tools
-- [`development.Brewfile`](development.Brewfile) - Development tools and languages
-- [`fonts.Brewfile`](fonts.Brewfile) - Programming fonts
 
 ### Installing Packages from Brewfiles
 
