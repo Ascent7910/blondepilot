@@ -28,14 +28,12 @@ echo "::endgroup::"
 
 echo "::group:: Copy Custom Files"
 
-# Copy Brewfiles to standard location
 mkdir -p /usr/share/ublue-os/homebrew/
 cp /ctx/custom/brew/*.Brewfile /usr/share/ublue-os/homebrew/
 
 # Consolidate Just Files
 find /ctx/custom/ujust -iname '*.just' -exec printf "\n\n" \; -exec cat {} \; >> /usr/share/ublue-os/just/60-custom.just
 
-# Copy Flatpak preinstall files
 mkdir -p /etc/flatpak/preinstall.d/
 cp /ctx/custom/flatpaks/*.preinstall /etc/flatpak/preinstall.d/
 
@@ -53,9 +51,9 @@ echo "::endgroup::"
 
 echo "::group:: System Configuration"
 
-# Enable/disable systemd services
+
 systemctl enable podman.socket
-# Example: systemctl mask unwanted-service
+
 
 echo "::endgroup::"
 
